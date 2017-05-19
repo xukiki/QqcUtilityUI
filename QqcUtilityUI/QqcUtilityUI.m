@@ -214,7 +214,7 @@
                                              forState:UIControlStateSelected];
     
     
-    if ([QqcBaseUtility getSystemMainVersion] >= 7)
+    if ([QqcUtility getSystemMainVersion] >= 7)
     {
         [[UINavigationBar appearance] setBarTintColor:navTintColor_];
     }
@@ -223,7 +223,7 @@
         [[UINavigationBar appearance] setTintColor:navTintColor_];
     }
     
-    if ([QqcBaseUtility getSystemMainVersion] >= 7)
+    if ([QqcUtility getSystemMainVersion] >= 7)
     {
         [[UITabBar appearance] setBarTintColor:tabTintColor_];
     }
